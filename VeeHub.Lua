@@ -13,7 +13,7 @@ _G.Key = "VeeHub-112244"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
-   loadstring(game:HttpGet(("https://raw.githubusercontent.com/VeeHub1111/VeeHub/main/README.md")))
+   loadstring(game:HttpGet(("https://raw.githubusercontent.com/VeeHub1111/VeeHub/main/VeeHub1.Lua")))
 end
 
 function CorrectKeyNotification()
