@@ -63,8 +63,8 @@ Tab:AddButton({
 })
 
 Tab:AddButton({
-	Name = "Get Key!",
+	Name = "Script No Key",
 	Callback = function()
-      	MakeScriptHub()
+      	   loadstring(game:HttpGet("https://raw.githubusercontent.com/Minhtriettt/Free-Script/main/MTriet-Hub.lua"))()
   	end    
 })
